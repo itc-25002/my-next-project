@@ -5,5 +5,6 @@ type Props = {
   category: Category;
 };
 export default function Category({ category }: Props) {
+  console.log(category);
   return <span className={styles.tag}>{category.name}</span>;
 }

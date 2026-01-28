@@ -10,6 +10,7 @@ type Props = {
 };
 
 export default function Article({ data }: Props) {
+  console.log(data);
   return (
     <main>
       <h1 className={styles.title}>{data.title}</h1>
